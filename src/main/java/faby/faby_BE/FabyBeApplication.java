@@ -17,7 +17,7 @@ public class FabyBeApplication {
 
 
 	@Bean
-	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {
+	public CommandLineRunner commandLineRunner() {
 
 		return runner -> {
 			System.out.println("Hello faby-BE");
